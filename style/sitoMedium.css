@@ -82,9 +82,16 @@ h1 {
 /*---------------------------------------*/
 /*---------------   CARD   -------------------------*/
 /*---------------------------------------*/
+.spazioLeftCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 70%;
+}
 .card {
     display: flex;
-    width: 100%;
+    width: 85%;
     height: 70%;
     gap: 10px;
     background-color: white;
@@ -93,7 +100,7 @@ h1 {
 .cardContenitoreTesto{
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 100%;
     height: 50%;
     font-size: 22px;
 }
@@ -108,7 +115,7 @@ h1 {
 .card-info {
     display: flex;
     align-items: center;
-    font-size: 22px;
+    font-size: 17px;
     color: #757575;
     margin: 10px;
 }
@@ -129,7 +136,7 @@ h1 {
 .ContenitoreImg {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
 }
 
 .icons i {
@@ -146,7 +153,6 @@ h1 {
 /*-----------------------*/
 #superContainer{
     display: flex;
-    flex-direction: row;
     width: 100%;
     height: 100%;
     gap: 10px;
@@ -198,28 +204,35 @@ h1 {
 /* ....................................................... */
 .CardConnessioniEsterne{
     display: flex;
-    width: 65%;
+    width: 40%;
     background-color: white;
-    height: 100%;
+    height: 45%;
     border-left: 1px solid black;
     padding: 20px;
     text-align: center;
+    flex-wrap: wrap;
 }
 .contenitoreCardConnessioniEsterne{
     display: flex;
-    flex-direction: column;
     align-items: center;
     width: 80%;
     
-    height: 300px;
+    height: 10%;
     background-color: rgb(255, 255, 255);
     border-bottom: 1px solid rgb(76, 72, 72);
+
+    flex-direction: column;
+    
+    
 }
 .icons {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 0;
+
+    
+    
 }
 .plus {
     margin: 0 8px;
@@ -253,3 +266,39 @@ h1 {
 
 /* ....................................................... */
 /* ....................................................... */
+/* ....................................................... */
+/* CARD    CardRecommendedTopics */
+/* .....................Topics............................ */
+
+.CardRecommendedTopics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 35%;
+    background-color: rgb(255, 255, 255);
+    /* .......linea finale card.......... */
+    /* .......linea finale card.......... */
+    border-bottom: 1px  solid rgb(76, 72, 72);
+}
+.recommendedTopics {    
+    font-size: 20px;
+    color: #4a4a4a;
+    margin: 10px 0 20px;  
+}
+.topics {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;    
+}
+.topic {
+    display: inline-block;    
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 14px;
+    color: #4a4a4a;
+    border: 1px solid #4a4a4a;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}   
