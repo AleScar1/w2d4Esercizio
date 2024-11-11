@@ -12,12 +12,10 @@ header {
     display: flex;
     align-items: start;
     padding: 0px 150px;
-    background-color: white;
-    border-bottom: 1.5px solid rgb(161, 157, 157);
-
 }
 .spazioTraHeaderEmain{
     padding-bottom: 50px;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(216, 211, 211) 95%, rgb(212, 203, 203) 95%, rgba(183, 179, 187, 0.658) 100%);
 }
 .titoloLogo {
     display: flex;
