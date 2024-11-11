@@ -11,7 +11,7 @@ html, body {
 header {
     display: flex;
     align-items: start;
-    padding: 0px 150px;
+    padding: 0px 260px;
 }
 .spazioTraHeaderEmain{
     padding-bottom: 50px;
@@ -29,7 +29,7 @@ header {
     border-radius: 50%;
 }
 h1 {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: bold;
 }
 
@@ -94,6 +94,8 @@ h1 {
     gap: 10px;
     background-color: white;
     border-radius: 10px;
+    padding-left: 10%;
+    padding-bottom: 3%;
 }
 .cardContenitoreTesto{
     display: flex;
@@ -103,7 +105,7 @@ h1 {
     font-size: 22px;
 }
 .cardContenitoreTesto p, h2 {
-    margin: 10px;
+    margin: 3px;
 }
 .InfoCard {
     display: flex;
@@ -171,11 +173,9 @@ h1 {
     
     display: flex;
     align-items: center;
-    justify-content: left;
-    gap: 30px;
     font-weight: bold;
     font-size: 18px;
-
+    padding-left: 300px;
 }
 
 #linkArgomentoPagina{
@@ -187,7 +187,7 @@ h1 {
 #ArgomentoPagina{
     border-bottom: 1px solid rgb(136, 132, 132);
     color: rgb(53, 47, 47);
-    padding-left: 150PX;
+    padding-left: 270PX;
 
 }
 
