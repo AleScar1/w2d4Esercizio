@@ -5,7 +5,7 @@ html, body {
     margin: 0px 40px;*/
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
   }
 
 header {
@@ -205,25 +205,18 @@ h1 {
 .CardConnessioniEsterne{
     display: flex;
     width: 40%;
-    background-color: white;
-    height: 45%;
-    border-left: 1px solid black;
+    height: 80%;
+    border-left: 1px solid rgb(66, 65, 65);
     padding: 20px;
     text-align: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 .contenitoreCardConnessioniEsterne{
     display: flex;
     align-items: center;
     width: 80%;
-    
-    height: 10%;
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid rgb(76, 72, 72);
-
+    height: 26%;
     flex-direction: column;
-    
-    
 }
 .icons {
     display: flex;
@@ -231,37 +224,32 @@ h1 {
     align-items: center;
     margin-left: 0;
 
-    
-    
 }
 .plus {
-    margin: 0 8px;
-    font-weight: bold;
+    font-size: 40px;
 }
 .descrizione {
-    font-size: 16px;
+    font-size: 25px;
     color: #4a4a4a;
     margin: 10px 0 20px;
 }
 .connect-btn {
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 25px;
     color: #1da1f2;
     border: 1px solid #1da1f2;
     border-radius: 24px;
     background-color: white;
     cursor: pointer;
     margin-bottom: 15px;
-    transition: background-color 0.3s;
 }
 
 .maybeLater {
-    color: #4a4a4a;
-    font-size: 14px;
-    text-decoration: none;
+    color: #928686;
+    font-size: 18px;
+    text-decoration: underline;
 }
 
 /* ....................................................... */
@@ -275,14 +263,14 @@ h1 {
     flex-direction: column;
     align-items: center;
     width: 80%;
-    height: 35%;
+    height: 18%;
     background-color: rgb(255, 255, 255);
     /* .......linea finale card.......... */
-    /* .......linea finale card.......... */
-    border-bottom: 1px  solid rgb(76, 72, 72);
+    /* .......linea finale card.......... 
+    border-bottom: 1px  solid rgb(76, 72, 72);*/
 }
 .recommendedTopics {    
-    font-size: 20px;
+    font-size: 25px;
     color: #4a4a4a;
     margin: 10px 0 20px;  
 }
@@ -291,14 +279,123 @@ h1 {
     flex-wrap: wrap;    
     justify-content: center;    
 }
-.topic {
-    display: inline-block;    
+.topic { 
     padding: 5px 10px;
     margin: 5px;
-    font-size: 14px;
+    font-size: 18px;
     color: #4a4a4a;
     border: 1px solid #4a4a4a;
     border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
 }   
+/* ....................................................... */
+/* ....................................................... */
+/* ....................................................... */
+/* CARD    FollowUser */
+/* .....................Follow............................ */
+
+.cardFollow {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 55%;
+    background-color: rgb(255, 255, 255);
+    /* .......linea finale card.......... */
+    /* .......linea finale card.......... 
+    border-bottom: 1px  solid rgb(76, 72, 72);*/
+    margin-bottom: 50px;
+}
+.cardTitle {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left; 
+    margin-left: 26%;
+}
+.userFollow {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: start;    
+    align-items: center;
+    margin-left: 10%;
+}
+.IMG {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.userName {
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+.userDescription {
+    font-size: 20px;
+    color: #757575;
+    margin: 20px;
+}
+.followCTA {
+    background-color: white;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    padding: 6px 12px;
+    color: #808080;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* ....................................................... */
+/* ....................................................... */
+/* ....................................................... */
+/* CARD    Recently saved */
+/* ................................................. */
+.recentlySavedTitle {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 26%;
+    margin-top: 20px;
+}
+
+.recentlySaved {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.savedImage {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.savedInfocard{
+    font-size: 14px;
+    margin: 0;
+}
+.savedInfocard p{
+    text-align: left;
+}
+.authorInfo {
+    font-size: 14px;
+    margin: 0;
+}
+.savedInfo {
+    font-size: 12px;
+    color: #757575;
+    margin: 5px 0 0;
+}
+.seeAll{
+    font-size: 14px;
+    color: #808080;
+    cursor: pointer;
+}
+
+/* ....................................................... */
+/* ....................................................... */
+/* ....................................................... */
