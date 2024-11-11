@@ -100,6 +100,9 @@ h1 {
     padding-left: 10%;
     padding-bottom: 3%;
 }
+.logoTitoloCard{
+    width: 5%;
+}
 .cardContenitoreTesto{
     display: flex;
     flex-direction: column;
